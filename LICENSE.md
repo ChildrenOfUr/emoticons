@@ -2,11 +2,17 @@
 
 ## Glitch Game Art
 
-[Glitch Game Art](http://www.glitchthegame.com/public-domain-game-art/) by [Tiny Speck](http://tinyspeck.com) is licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+[Glitch Game Art](http://www.glitchthegame.com/public-domain-game-art/)
+by [Tiny Speck](http://tinyspeck.com)
+is licensed under
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 ## Emoticons
 
-[Free Emoticon Icons](https://www.iconsmind.com/Free-Emoticons-flat-icons) by [Iconsmind](http://iconsmind.com)
+Emoji provided free by
+[EmojiOne](http://emojione.com)
+licensed under
+[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 # License
 
