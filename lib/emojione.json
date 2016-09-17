@@ -26332,7 +26332,8 @@
 			":boxing_gloves:"
 		],
 		"aliases_ascii": [],
-		"keywords": []
+		"keywords": [],
+		"hidden": true
 	},
 	"martial_arts_uniform": {
 		"unicode": "1f94b",
@@ -26345,7 +26346,8 @@
 			":karate_uniform:"
 		],
 		"aliases_ascii": [],
-		"keywords": []
+		"keywords": [],
+		"hidden": true
 	},
 	"water_polo": {
 		"unicode": "1f93d",
@@ -26445,7 +26447,8 @@
 			":drum_with_drumsticks:"
 		],
 		"aliases_ascii": [],
-		"keywords": []
+		"keywords": [],
+		"hidden": true
 	},
 	"shrimp": {
 		"unicode": "1f990",

@@ -4,6 +4,10 @@ Future _loadEmojione(Asset json) async {
 	await json.load();
 
 	json.get().forEach((String id, Map<String, dynamic> emoticon) {
+		if (emoticon['hidden'] == true) {
+			return;
+		}
+
 		if (emoticon['name'].contains('modifier')) {
 			return;
 		}
