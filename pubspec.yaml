@@ -1,2 +1,10 @@
 name: coUemoticons
 description: Emoticons for the client
+version: 2.0.0
+dependencies:
+  browser: any
+  libld:
+      git:
+        ref: master
+        url: git://github.com/ChildrenOfUr/libld.git
+  levenshtein: 1.0.2
