@@ -13,7 +13,10 @@ class _SortingEmoticon extends Emoticon implements Comparable {
 	String toString() => '[$relevance] $emoticon';
 
 	@override
-	int compareTo(_SortingEmoticon other) => this.relevance.compareTo(other.relevance);
+	int compareTo(dynamic other) {
+		assert(other is _SortingEmoticon);
+		return this.relevance.compareTo(other.relevance);
+	}
 }
 
 Map<String, List<Emoticon>> _searchCache = {};
@@ -29,10 +32,9 @@ List<Emoticon> search(String needle) {
 
 	// Find how closely each emoticon matches
 	List<_SortingEmoticon> pile = [];
-	int loops = 0;
 	emoticons.forEach((Emoticon emoticon) {
-		int relevance = min(levenshtein(emoticon.name, needle),
-			levenshtein(emoticon.shortname, needle)) * 2;
+		int relevance = min(levenshtein.distance(emoticon.name, needle),
+			levenshtein.distance(emoticon.shortname, needle)) * 2;
 
 		if (emoticon.keywords.join(',').contains(needle)) {
 			relevance ~/= 2;
