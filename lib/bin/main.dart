@@ -1,9 +1,10 @@
 library coUemoticons;
 
+import 'package:coUemoticons/levenshtein.dart' as levenshtein;
+
 import 'dart:async';
 import 'dart:math';
 
-import 'package:edit_distance/edit_distance.dart';
 import 'package:libld/libld.dart';
 
 part 'chat.dart';
@@ -19,8 +20,6 @@ List<Emoticon> get emoticons => _emoticons.values.toList();
 
 Completer _load = new Completer();
 Completer get load => _load;
-
-Levenshtein levenshtein = new Levenshtein();
 
 Future main() async {
 	await Future.wait([
