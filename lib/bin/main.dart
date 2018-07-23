@@ -24,7 +24,7 @@ Completer get load => _load;
 Future main() async {
 	await Future.wait([
 		_loadCou(new Asset('$PATH/couemoji.json')),
-		_loadEmojione(new Asset('$PATH/emojione.json')),
+//		_loadEmojione(new Asset('$PATH/emojione.json')),
 	]);
 
 	load.complete();
